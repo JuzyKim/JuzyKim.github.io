@@ -1,14 +1,16 @@
-
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #b3f5e3;
+	background-color: #ffffb0;
 	display: table;
-	width: 100%
+	width: 100%;
 }
 
+body {
+	background-image: url("../images/taraz-pic.PNG");
+  }
 nav li {
 	display: table-cell
 }
@@ -22,7 +24,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 h2 a {
@@ -49,6 +51,9 @@ article {
 	max-width: 80%;
 	font-size: 18px;
 	line-height: 32px;
+	border: 1px solid rgb(255, 255, 255);
+	border-color: #000000;
+	border-width: 5px;
 }
 
 img {
@@ -64,7 +69,7 @@ aside {
 	padding: 15px;
 	max-width: 80%;
 	position: relative;
-	border-color: #e0f5ca;
+	border-color: #000000;
 	border-width: 5px;
 	font-size: 18px;
 }
@@ -73,7 +78,7 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #b4f3e6;
+	background-color: #eaf3b4;
 }
 
 footer p {
@@ -104,4 +109,9 @@ audio {
 	width: 98%;
   box-sizing: border-box;
 }
+body {
+	color: rgb(255, 255, 255);
+}
+
+
 
