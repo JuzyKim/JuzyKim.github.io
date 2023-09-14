@@ -1,5 +1,4 @@
-body {
-	background: #f0ffda;}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -106,8 +105,3 @@ audio {
   box-sizing: border-box;
 }
 
-embed {
-	width: 400px;
-	height: 458px;
-  padding:15px;
-}
