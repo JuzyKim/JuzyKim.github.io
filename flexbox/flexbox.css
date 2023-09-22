@@ -1,0 +1,94 @@
+
+body{
+    margin: 0px;
+    background-color: rgb(191, 255, 254);
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+  }
+  
+  .secondary-background {
+    background-color: rgb(255, 191, 191);
+  }
+  
+  .tagline {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(253, 186, 238);
+    line-height: 125px;
+  }
+  
+  
+  h1 {
+    margin: 0;
+    background-color: rgb(196, 255, 196);
+    line-height: 100px;
+    color: rgb(255, 248, 185);
+  }
+  
+  h2 {
+    margin: 10px;
+  }
+  
+ 
+  .containers {
+    border: 2px solid snow;
+    display: flex;
+  }
+  
+
+.week{
+    flex-direction: column;
+    flex-grow:(3);
+    display: inline-flex;
+}
+  .row {
+    min-height: 200px;
+    flex-wrap: nowrap;
+    display: flex;
+justify-content: space-around; 
+align-items: center;
+
+}
+  
+  .square {
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .day.square {
+    background-color: rgb(180, 250, 255);
+    border: 1px solid white;
+  }
+  
+  .task.square {
+    background-color: rgb(255, 249, 193);
+    border: 1px solid white;
+  }
+  
+  .task p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .reminders {
+    background-color: rgb(255, 248, 184);
+    flex-grow:(2);
+    display: inline-flex;
+  }
+  
+  .reminders h3 {
+    width: 100%;
+    margin: 10px;
+    color: black;
+    line-height: 90px;
+    font-size: 24px;
+  }
+  
+  footer {
+    font-size: 24px;
+
+  }
+  
