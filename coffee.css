@@ -96,3 +96,26 @@ footer {
 a:hover {
     color: #a1887f; /* Darker brown */
 }
+
+.oldprice {
+    font-weight: 400; 
+    text-decoration: none !important; 
+    font-size: 14px; 
+    color:#c0c0c0;
+     position: relative; }
+
+     .oldprice:after {
+        height: 1px;
+        background: #ff6b6b; 
+        position: absolute; 
+        left:6px; top:24px; 
+        right: 4px; 
+        transform: rotate(-15deg); 
+        content: '';}
+.razprice {font-weight: 400;
+     color: #fff; 
+     background: #ee5361; 
+     padding: 5px 7px; 
+     border-radius: 3px; 
+     display: inline-block; 
+     font-size:11px;}
