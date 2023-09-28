@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the body */
+body {
+    background-image: url('https://traveltimes.ru/wp-content/uploads/2021/11/kofeso5.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #4e342e; /* Coffee brown */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #4e342e; /* Coffee brown */
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Style the coffee menu */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li h3 {
+    font-size: 20px;
+    color: #4e342e; /* Coffee brown */
+}
+
+ul li p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style the footer */
+footer {
+    background-color: #4e342e; /* Coffee brown */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add some hover effects to links */
+a:hover {
+    color: #a1887f; /* Darker brown */
+}
+
+.oldprice {
+    font-weight: 400; 
+    text-decoration: none !important; 
+    font-size: 14px; 
+    color:#c0c0c0;
+     position: relative; }
+
+     .oldprice:after {
+        height: 1px;
+        background: #ff6b6b; 
+        position: absolute; 
+        left:6px; top:24px; 
+        right: 4px; 
+        transform: rotate(-15deg); 
+        content: '';}
+.razprice {font-weight: 400;
+     color: #fff; 
+     background: #ee5361; 
+     padding: 5px 7px; 
+     border-radius: 3px; 
+     display: inline-block; 
+     font-size:11px;}
