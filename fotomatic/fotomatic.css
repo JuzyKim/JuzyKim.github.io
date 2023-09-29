@@ -127,7 +127,7 @@
   @media (max-width: 1320px) {
     .invisibleAmp {
       font-size: .0001px;
-      /* opacity: 1; */
+      opacity: 1; 
     }
   }
   
@@ -291,7 +291,7 @@
     }
   }
   
-  /* Features Section */
+
   
   #features-section {
     display: flex;
@@ -354,7 +354,6 @@
     }
   }
   
-  /* Filters Section */
   #filters-section {
     padding: 4rem 0;
     background-color: #4a4a4a;
