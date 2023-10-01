@@ -14,14 +14,14 @@
     text-decoration: none;
   }
   
-  .msg a:hover {  background: #b2f4ee }
+  .msg a:hover {  background: #a8fff8 }
   
   html {
     height: 100% ! important;
     background: url('../images/low_contrast_linen.png');
   }
   
-  /* //-- yui-grids style overrides -- */
+
   
   body {
     font-family: Georgia, Garamond, "Times New Roman", Times, serif;
@@ -37,8 +37,7 @@
   .yui-gf div.first {  width: 12.3% }
   
   .yui-gf .yui-u {  width: 80.2% }
-  
-  /* //-- header, body, footer -- */
+
   
   header {
     margin: 2.5em 0 3em 0;
@@ -65,7 +64,6 @@
     text-align: center;
   }
   
-  /* //-- footer -- */
   
   footer {
     padding: 1em 0 5em 0;
@@ -73,8 +71,6 @@
     border-top: 1px solid #ccc;
     text-align: center;
   }
-  
-  /* //-- core typography and style -- */
   
   h2 {  font-size: 152% }
   
@@ -91,7 +87,8 @@
     line-height: 18px;
   }
   
-  a {  color: #990003 }
+  a {  color: #990003}
+
   
   a:hover {  text-decoration: none }
   
@@ -116,7 +113,7 @@
     width: 100%;
   }
   
-  .contact-info img {
+  .contact-info img{
     float: right;
     border: 1px solid #ccc;
     width: 500px;
@@ -197,7 +194,7 @@
   
   #srt-ttab img.last {  margin-top: 20px }
   
-  /* --// override to force 1/8th width grids -- */
+
   
   #username {
     position: relative;

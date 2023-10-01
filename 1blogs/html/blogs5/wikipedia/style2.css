@@ -17,14 +17,14 @@ p {
   font-size: 20px;
 }
 p {
-  color: red;
+  color: rgb(251, 254, 177);
   text-align: center;
 }
 p {
   text-align: center;
-  color: red;
+  color: rgb(252, 255, 166);
 }
 p.center {
   text-align: center;
-  color: red;
+  color: rgb(255, 254, 169);
 }

@@ -25,7 +25,7 @@
   
   .button {
     border-radius: 4px;
-    background-color: hsla(197, 74%, 78%, 0.442); 
+    background-color: hsl(106, 99%, 57%); 
     background-color: hsla(0, 0%, 0%, 0.442);
     color: rgb(255, 255, 255);
     font-family: "Proxima Nova", sans-serif;
@@ -197,8 +197,7 @@
     padding: 0 5rem 2.5rem 5rem;
     border: solid 1px #979797;
     border-radius: 4px;
-    /* background-color: #c5edf7e7; */
-    background-color: #393333be;
+    background-color: #8aff4bcb;
     margin-top: 160px;
   }
   
