@@ -1,0 +1,7 @@
+zh = int(input())
+zh1 = int(input())
+zh2 = int(input())
+ts = int(input())
+ts2 = int(input())
+print("Наименьшее число =" ,min (zh,zh1,zh2,ts,ts1) )
+print('Наибольшее число =' ,max (zh,zh1,zh2,ts,ts1) )

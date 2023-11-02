@@ -1,0 +1,2 @@
+zh = int(input())
+print()
